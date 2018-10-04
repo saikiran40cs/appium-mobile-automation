@@ -9,4 +9,7 @@
   * [Installing Appium using app](installation-instructions/installing-appium-using-app.md)
   * [Install Appium using npm](installation-instructions/install-appium-using-npm.md)
   * [Installing an App on Emulator](installing-an-app-on-emulator.md)
+* [Appium For Beginners](appium-for-beginners.md)
+  * [Understanding Desired Capabilities](appium-for-beginners/understanding-desired-capabilities.md)
+  * Desired Capabilities for Android
 
