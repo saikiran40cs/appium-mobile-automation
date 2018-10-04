@@ -14,4 +14,5 @@
   * [Desired Capabilities for Android](appium-for-beginners/desired-capabilities-for-android.md)
   * [Cucumber-JVM-Appium - Gradle Project](appium-for-beginners/cucumber-jvm-appium-gradle-project.md)
 * [Write your first Android Test](write-your-first-android-test.md)
+  * [How to use UiAutomatorViewer](write-your-first-android-test/how-to-use-uiautomatorviewer.md)
 
