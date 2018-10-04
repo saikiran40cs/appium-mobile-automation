@@ -19,5 +19,5 @@
   * [Appium Inspector\(Deprecated\)](write-your-first-android-test/appium-inspectordeprecated.md)
 * [Execution of Android tests](execution-of-android-tests.md)
   * [Execute on GenyMotion Emulator](execution-of-android-tests/execute-on-genymotion-emulator.md)
-  * Execute on Real Device
+  * [Execute on Real Device](execution-of-android-tests/execute-on-real-device.md)
 
