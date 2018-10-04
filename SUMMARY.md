@@ -20,4 +20,6 @@
 * [Execution of Android tests](execution-of-android-tests.md)
   * [Execute on GenyMotion Emulator](execution-of-android-tests/execute-on-genymotion-emulator.md)
   * [Execute on Real Device](execution-of-android-tests/execute-on-real-device.md)
+* [Appium Advanced](techniques.md)
+  * [How to automate gestures](techniques/how-to-automate-gestures.md)
 
