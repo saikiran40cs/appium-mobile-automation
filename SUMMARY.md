@@ -11,5 +11,5 @@
   * [Installing an App on Emulator](installing-an-app-on-emulator.md)
 * [Appium For Beginners](appium-for-beginners.md)
   * [Understanding Desired Capabilities](appium-for-beginners/understanding-desired-capabilities.md)
-  * Desired Capabilities for Android
+  * [Desired Capabilities for Android](appium-for-beginners/desired-capabilities-for-android.md)
 
