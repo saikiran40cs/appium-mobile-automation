@@ -69,7 +69,6 @@ Once the above changes are done, run the following commands:
 adb kill-server
 adb start-server
 adb devices
-
 ```
 
 This would finally show up the devices as connected. Once the device shows up as online, we are good to run the test.
@@ -79,7 +78,7 @@ Start the **Appium** and in that launch the **Android Server**.
 In case you have any android version mentioned in your code, you can remove it and have only the one, which are mandatory. Below is a sample snippet I have used and works flawlessly.
 
 ```
-File appDir = new File(“/Users/Steve/Development/SampleApps”);
+File appDir = new File(“/Users/saikiranpro/Development/SampleApps”);
 File app = new File(appDir, “Flipkart.apk”);
 DesiredCapabilities capabilities = new DesiredCapabilities();
 capabilities.setCapability(“device”,”Android”);
@@ -93,5 +92,5 @@ capabilities.setCapability(“app”, app.getAbsolutePath());
 driver = new RemoteWebDriver(new URL(“http://127.0.0.1:4723/wd/hub”), capabilities);
 ```
 
-
+Whenever appium starts the appium.settings and unlock apps are installed in the device. For any test appium settings and unlock are the first apps appium server will interact then it will open the desired app as required
 
