@@ -9,19 +9,17 @@ Appium has introduced a class called **AppiumDriverLocalService** which will hel
    ```
     service = AppiumDriverLocalService.buildDefaultService();
     service.start();
-
    ```
 
-    For stopping the appium server use:
+   For stopping the appium server use:
 
    ```
     service.stop();
-
    ```
 
 2. If you don't have appium installed via npm then try the below lines of code. For your local machine you might want to change the path accordingly. In the below example, I am showing if the OS is mac then use the installed Appium to start the server. If the OS is windows use the npm installed appium. This is just for the demonstration, ideally you should have common strategy whether it is Mac or Windows.
 
-    String osName = System.getProperty\("os.name"\);
+   String osName = System.getProperty\("os.name"\);
 
    ```
     if (osName.contains("Mac")) {
@@ -43,10 +41,23 @@ Appium has introduced a class called **AppiumDriverLocalService** which will hel
 
     System.out.println("- - - - - - - - Starting Appium Server- - - - - - - - ");
     service.start();
-
    ```
 
 In the code above, I have the port as parameter for parallel runs on device.
 
 However for windows you can use npm or the appium desktop so as to launch the server.
+
+To launch the appium server via code and we are generating an appium log file so as to capture the appium log which is again parameterized based on the device under execution.
+
+```
+service = AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
+                    .usingDriverExecutable(new File("/Applications/Appium.app/Contents/Resources/node/bin/node"))
+                    .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js"))
+                    .withIPAddress("127.0.0.1")
+                    .usingPort(port)
+                    .withLogFile(new File("target/"+deviceUnderExecution+".log")));
+
+```
+
+
 
