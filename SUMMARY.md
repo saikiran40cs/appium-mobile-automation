@@ -23,4 +23,5 @@
 * [Appium Advanced](techniques.md)
   * [How to automate gestures](techniques/how-to-automate-gestures.md)
   * [How to Change contexts](techniques/how-to-change-contexts.md)
+  * [Remote Debugging using chrome](techniques/remote-debugging-using-chrome.md)
 
