@@ -1,4 +1,4 @@
-# Install Appium via Source {#install-appium-via-source}
+# Install Appium using npm {#install-appium-via-source}
 
 One of the alternative way to install Appium is to install via npm \(Node JS Package Manager\).
 
@@ -13,7 +13,6 @@ Once the node.js and npm are installed, you can use the below command to check i
 
 ```
 appium-doctor
-
 ```
 
 It would show up a result like this if everything is okay:
@@ -24,7 +23,6 @@ Once done run the below command to install the appium:
 
 ```
 npm install -g appium
-
 ```
 
 Once this is done, start the appium server by the following command:
