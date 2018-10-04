@@ -1,3 +1,4 @@
 # Summary
 
-* [Appium mobile automation](README.md)
+* [Introduction](README.md)
+
