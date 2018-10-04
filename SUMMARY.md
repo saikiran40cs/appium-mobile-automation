@@ -17,4 +17,6 @@
 * [Write your first Android Test](write-your-first-android-test.md)
   * [How to use UiAutomatorViewer](write-your-first-android-test/how-to-use-uiautomatorviewer.md)
   * [Appium Inspector\(Deprecated\)](write-your-first-android-test/appium-inspectordeprecated.md)
+* [Execution of Android tests](execution-of-android-tests.md)
+* [Execute on GenyMotion Emulator](execution-of-android-tests/execute-on-genymotion-emulator.md)
 
