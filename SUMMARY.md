@@ -22,4 +22,5 @@
   * [Execute on Real Device](execution-of-android-tests/execute-on-real-device.md)
 * [Appium Advanced](techniques.md)
   * [How to automate gestures](techniques/how-to-automate-gestures.md)
+  * [How to Change contexts](techniques/how-to-change-contexts.md)
 
