@@ -15,4 +15,5 @@
   * [Cucumber-JVM-Appium - Gradle Project](appium-for-beginners/cucumber-jvm-appium-gradle-project.md)
 * [Write your first Android Test](write-your-first-android-test.md)
   * [How to use UiAutomatorViewer](write-your-first-android-test/how-to-use-uiautomatorviewer.md)
+  * [Appium Inspector\(Deprecated\)](write-your-first-android-test/appium-inspectordeprecated.md)
 
