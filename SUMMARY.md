@@ -5,4 +5,5 @@
 * [What is Appium](what-is-appium.md)
   * [Appium 1.6.0](what-is-appium/appium-160.md)
 * [Installation Instructions](installation-instructions.md)
+  * [Installing Android SDK](installation-instructions/installing-android-sdk.md)
 
