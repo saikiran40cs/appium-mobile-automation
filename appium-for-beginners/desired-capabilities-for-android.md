@@ -2,12 +2,12 @@
 
 Since **Appium** caters to both Android and iOS, there are different set of desired capabilities for Android and iOS.
 
-This section will list all the desired capabilities associated with Android. Majority of them are optional but you can choose to use them as it suits your needs.
+This section will list all the desired capabilities associated with Android. Majority of them are optional but you can choose to use them as it suits your needs.The one's in bold are required for initial kick-off
 
 | Capability | Description | Values |
 | :--- | :--- | :--- |
-| appActivity | Activity name for the Android activity  you want to launch from your package | MainActivity, .Settings |
-| appPackage | Java package of the Android app you want to run | com.example.android.myApp, com.android.settings |
+| **appActivity** | Activity name for the Android activity  you want to launch from your package | MainActivity, .Settings |
+| **appPackage** | Java package of the Android app you want to run | com.example.android.myApp, com.android.settings |
 | appWaitActivity | Activity name for the Android activity  you want to wait for | SplashActivity |
 | appWaitPackage | Java package of the Android app you want to wait for | com.example.android.myApp, com.android.settings |
 | deviceReadyTimeout | Timeout in seconds while waiting for  device to become ready | 5 |
