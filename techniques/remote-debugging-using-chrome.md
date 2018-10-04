@@ -14,7 +14,7 @@ To use Remote debugging, we need to have:
 
 Once the basic things are in place, connect your device to machine using USB cable. Launch Chrome and open a tab with target "_chrome://inspect_". This is how it would look like.
 
-
+![](/assets/Screen Shot 2018-10-05 at 4.32.49 pm.png)
 
 If you notice your phone, you would have got an alert saying "Allow USB Debugging".
 
