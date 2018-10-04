@@ -24,4 +24,5 @@
   * [How to automate gestures](techniques/how-to-automate-gestures.md)
   * [How to Change contexts](techniques/how-to-change-contexts.md)
   * [Remote Debugging using chrome](techniques/remote-debugging-using-chrome.md)
+  * [Running multiple Appium Server for parallel execution](techniques/running-multiple-appium-server-for-parallel-execution.md)
 
